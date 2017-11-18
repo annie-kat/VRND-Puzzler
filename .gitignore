@@ -1,0 +1,11 @@
+# Borrowed from https://www.reddit.com/r/gamedev/comments/6mc1az/lets_talk_about_unity_git_best_practices_and/#bottom-comments
+
+# The first * blacklists everything, and the following ! lines add things to a whitelist
+
+*
+!*.git*
+!*Readme.md
+!Assets/
+!Assets/**
+!ProjectSettings/
+!ProjectSettings/**
